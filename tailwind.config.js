@@ -26,5 +26,12 @@ module.exports = {
         },
       });
     }),
+    plugin(({ matchUtilities }) => {
+      matchUtilities({
+        "grid-area": (value) => ({
+          "grid-area": value.split(" ").join(" / "),
+        }),
+      });
+    }),
   ],
 };
