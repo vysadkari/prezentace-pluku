@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
 
 interface PresentationProps {
-  children: ReactNode;
+  children: ReactNode | ReactNode[];
 }
 
 const Presentation = ({ children }: PresentationProps) => {

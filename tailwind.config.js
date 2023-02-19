@@ -2,7 +2,11 @@ const plugin = require("tailwindcss/plugin");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./pages/**/*.{ts,tsx}", "./components/**/*.{ts,tsx}"],
+  content: [
+    "./pages/**/*.{ts,tsx}",
+    "./components/**/*.{ts,tsx}",
+    "./slides/**/*.{ts,tsx}",
+  ],
   theme: {
     extend: {
       colors: {
