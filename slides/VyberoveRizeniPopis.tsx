@@ -26,10 +26,6 @@ const VyberoveRizeniPopis = () => (
             </li>
             <li className='flex flex-row items-center gap-2'>
               <ChevronRightIcon className='w-5 h-5 text-stone-500 relative top-px' />
-              Buddy run
-            </li>
-            <li className='flex flex-row items-center gap-2'>
-              <ChevronRightIcon className='w-5 h-5 text-stone-500 relative top-px' />
               Plavání
             </li>
             <li className='flex flex-row items-center gap-2'>
@@ -49,20 +45,6 @@ const VyberoveRizeniPopis = () => (
             width={500}
             height={333}
             alt='Fyzické přezkoušení'
-            className='rounded-xl drop-shadow-black'
-          />
-          <Image
-            src='/images/vyberove-rizeni/prekazkova-draha.jpg'
-            width={500}
-            height={333}
-            alt='Překážková dráha'
-            className='rounded-xl drop-shadow-black'
-          />
-          <Image
-            src='/images/vyberove-rizeni/buddy-run.jpg'
-            width={500}
-            height={333}
-            alt='Buddy run'
             className='rounded-xl drop-shadow-black'
           />
           <Image
@@ -110,24 +92,10 @@ const VyberoveRizeniPopis = () => (
             className='rounded-xl drop-shadow-black'
           />
           <Image
-            src='/images/vyberove-rizeni/prekazkova-draha-klada.jpg'
-            width={500}
-            height={333}
-            alt='Překážková dráha v družstvu'
-            className='rounded-xl drop-shadow-black'
-          />
-          <Image
             src='/images/vyberove-rizeni/zrychleny-presun.jpg'
             width={500}
             height={333}
             alt='Zrychlený přesun'
-            className='rounded-xl drop-shadow-black'
-          />
-          <Image
-            src='/images/vyberove-rizeni/pohovor-s-psychology.jpg'
-            width={500}
-            height={333}
-            alt='Pohovor s psychology'
             className='rounded-xl drop-shadow-black'
           />
         </div>
@@ -160,13 +128,6 @@ const VyberoveRizeniPopis = () => (
 
         <div className='grid grid-cols-2 gap-5'>
           <Image
-            src='/images/vyberove-rizeni/pochod-2.jpg'
-            width={500}
-            height={333}
-            alt='35 km pochod se zátěží'
-            className='rounded-xl drop-shadow-black'
-          />
-          <Image
             src='/images/vyberove-rizeni/pochod.jpg'
             width={500}
             height={333}
@@ -178,13 +139,6 @@ const VyberoveRizeniPopis = () => (
             width={500}
             height={333}
             alt='Běh s nosítky'
-            className='rounded-xl drop-shadow-black'
-          />
-          <Image
-            src='/images/vyberove-rizeni/zaver.jpg'
-            width={500}
-            height={333}
-            alt='Závěr'
             className='rounded-xl drop-shadow-black'
           />
         </div>
