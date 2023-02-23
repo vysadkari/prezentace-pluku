@@ -11,7 +11,7 @@ interface CoDelameProps {
   tasks: Task[];
 }
 
-const CoDelameSlide = ({ tasks }: CoDelameProps) => (
+const CoDelame = ({ tasks }: CoDelameProps) => (
   <Slide>
     <h2 className='text-3xl font-extrabold uppercase text-center bg-gradient-to-r from-black/70 to-primary/70 text-white text-shadow h-[4.5rem] flex flex-row justify-center items-center absolute top-0 inset-x-0'>
       Co děláme
@@ -34,4 +34,4 @@ const CoDelameSlide = ({ tasks }: CoDelameProps) => (
   </Slide>
 );
 
-export default CoDelameSlide;
+export default CoDelame;

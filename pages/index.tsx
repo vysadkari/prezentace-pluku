@@ -1,9 +1,9 @@
 import Presentation from "@/components/Presentation";
-import CoDelameSlide from "@/slides/CoDelameSlide";
-import IntroSlide from "@/slides/IntroSlide";
-import VyzbrojPoziceSlide from "@/slides/VyzbrojPoziceSlide";
-import VyzbrojTezkeZbraneSlide from "@/slides/VyzbrojTezkeZbraneSlide";
-import OrganizacniStrukturaSlide from "@/slides/OrganizacniStrukturaSlide";
+import CoDelame from "@/slides/CoDelame";
+import Intro from "@/slides/Intro";
+import VyzbrojPozice from "@/slides/VyzbrojPozice";
+import VyzbrojTezkeZbrane from "@/slides/VyzbrojTezkeZbrane";
+import OrganizacniStruktura from "@/slides/OrganizacniStruktura";
 import VyberoveRizeniPopis from "@/slides/VyberoveRizeniPopis";
 import VyberoveRizeniLimity from "@/slides/VyberoveRizeniLimity";
 import DotazySlide from "@/slides/Dotazy";
@@ -27,11 +27,11 @@ interface HomeProps {
 }
 
 const slideComponents: { [index: string]: any } = {
-  IntroSlide,
-  CoDelameSlide,
-  VyzbrojPoziceSlide,
-  VyzbrojTezkeZbraneSlide,
-  OrganizacniStrukturaSlide,
+  Intro,
+  CoDelame,
+  VyzbrojPozice,
+  VyzbrojTezkeZbrane,
+  OrganizacniStruktura,
   VyberoveRizeniPopis,
   VyberoveRizeniLimity,
   DotazySlide,
@@ -140,26 +140,26 @@ export async function getStaticProps() {
   const slides: SlideData[] = [
     {
       id: "intro",
-      component: "IntroSlide",
+      component: "Intro",
     },
     {
       id: "co-delame",
-      component: "CoDelameSlide",
+      component: "CoDelame",
       props: {
         tasks,
       },
     },
     {
       id: "vyzbroj-pozice",
-      component: "VyzbrojPoziceSlide",
+      component: "VyzbrojPozice",
     },
     {
       id: "vyzbroj-tezke-zbrane",
-      component: "VyzbrojTezkeZbraneSlide",
+      component: "VyzbrojTezkeZbrane",
     },
     {
       id: "organizacni-struktura",
-      component: "OrganizacniStrukturaSlide",
+      component: "OrganizacniStruktura",
     },
     {
       id: "vyberove-rizeni-popis",

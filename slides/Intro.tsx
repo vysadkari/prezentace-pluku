@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import Slide from "@/components/Slide";
 
-const IntroSlide = () => (
+const Intro = () => (
   <Slide background='./images/intro.jpg' centered>
     <Image
       src='./images/43vp.svg'
@@ -16,4 +16,4 @@ const IntroSlide = () => (
   </Slide>
 );
 
-export default IntroSlide;
+export default Intro;

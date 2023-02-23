@@ -4,7 +4,7 @@ import Xarrow from "react-xarrows";
 
 import Slide from "@/components/Slide";
 
-const OrganizacniStrukturaSlide = () => {
+const OrganizacniStruktura = () => {
   const plukIcon = useRef(null);
   const stabIcon = useRef(null);
   const komandaIcon = useRef(null);
@@ -312,4 +312,4 @@ const OrganizacniStrukturaSlide = () => {
   );
 };
 
-export default OrganizacniStrukturaSlide;
+export default OrganizacniStruktura;
