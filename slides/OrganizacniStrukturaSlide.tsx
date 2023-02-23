@@ -26,7 +26,7 @@ const OrganizacniStrukturaSlide = () => {
         <div className='flex flex-row justify-between'>
           <div ref={plukIcon} className='pr-10'>
             <Image
-              src='/images/struktura/43vp.svg'
+              src='./images/struktura/43vp.svg'
               width={300}
               height={300}
               alt='43. výsadkový pluk'
@@ -38,7 +38,7 @@ const OrganizacniStrukturaSlide = () => {
             className='flex flex-col gap-2 items-center justify-center pl-10'
           >
             <Image
-              src='/images/struktura/stab.svg'
+              src='./images/struktura/stab.svg'
               width={200}
               height={200}
               alt='Velení a štáb pluku'
@@ -57,28 +57,28 @@ const OrganizacniStrukturaSlide = () => {
           >
             <div className='grid grid-cols-5'>
               <Image
-                src='/images/struktura/1k.svg'
+                src='./images/struktura/1k.svg'
                 width={100}
                 height={100}
                 alt='1. komando'
                 className='drop-shadow-black border border-black z-30 grid-area-[1_1_3_3]'
               />
               <Image
-                src='/images/struktura/2k.svg'
+                src='./images/struktura/2k.svg'
                 width={100}
                 height={100}
                 alt='2. komando'
                 className='drop-shadow-black border border-black z-20 grid-area-[2_2_4_4]'
               />
               <Image
-                src='/images/struktura/3k.svg'
+                src='./images/struktura/3k.svg'
                 width={100}
                 height={100}
                 alt='3. komando'
                 className='drop-shadow-black border border-black z-10 grid-area-[3_3_5_5]'
               />
               <Image
-                src='/images/struktura/4k.svg'
+                src='./images/struktura/4k.svg'
                 width={100}
                 height={100}
                 alt='4. komando'
@@ -95,7 +95,7 @@ const OrganizacniStrukturaSlide = () => {
             className='pt-5 flex flex-col items-center justify-center gap-2'
           >
             <Image
-              src='/images/struktura/5k.svg'
+              src='./images/struktura/5k.svg'
               width={100}
               height={100}
               alt='5. komando (AZ)'
@@ -111,7 +111,7 @@ const OrganizacniStrukturaSlide = () => {
             className='flex flex-col items-center justify-center gap-2 pt-5'
           >
             <Image
-              src='/images/struktura/sz.svg'
+              src='./images/struktura/sz.svg'
               width={100}
               height={100}
               alt='Středisko zbraní'
@@ -127,7 +127,7 @@ const OrganizacniStrukturaSlide = () => {
             className='flex flex-col items-center justify-center gap-2 pt-5'
           >
             <Image
-              src='/images/struktura/sbp.svg'
+              src='./images/struktura/sbp.svg'
               width={100}
               height={100}
               alt='Středisko bojové podpory'
@@ -143,7 +143,7 @@ const OrganizacniStrukturaSlide = () => {
             className='flex flex-col items-center justify-center gap-2 pt-5'
           >
             <Image
-              src='/images/struktura/szv.svg'
+              src='./images/struktura/szv.svg'
               width={100}
               height={100}
               alt='Středisko zabezpečení velení'
@@ -159,7 +159,7 @@ const OrganizacniStrukturaSlide = () => {
             className='flex flex-col items-center justify-center gap-2 pt-5'
           >
             <Image
-              src='/images/struktura/slz.svg'
+              src='./images/struktura/slz.svg'
               width={100}
               height={100}
               alt='Středisko logistického zabezpečení'
@@ -175,7 +175,7 @@ const OrganizacniStrukturaSlide = () => {
             className='flex flex-col items-center justify-center gap-2 pt-5'
           >
             <Image
-              src='/images/struktura/sbv.svg'
+              src='./images/struktura/sbv.svg'
               width={100}
               height={100}
               alt='Středisko bojového výcviku'
@@ -191,7 +191,7 @@ const OrganizacniStrukturaSlide = () => {
             className='flex flex-col items-center justify-center gap-2 pt-5'
           >
             <Image
-              src='/images/struktura/svp.svg'
+              src='./images/struktura/svp.svg'
               width={100}
               height={100}
               alt='Středisko výsadkové přípravy'
@@ -207,7 +207,7 @@ const OrganizacniStrukturaSlide = () => {
             className='flex flex-col items-center justify-center gap-2 pt-5'
           >
             <Image
-              src='/images/struktura/zod.svg'
+              src='./images/struktura/zod.svg'
               width={100}
               height={100}
               alt='Zdravotnický odřad'

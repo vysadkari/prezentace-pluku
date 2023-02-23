@@ -3,9 +3,9 @@ import Image from "next/image";
 import Slide from "@/components/Slide";
 
 const IntroSlide = () => (
-  <Slide background='/images/intro.jpg' centered>
+  <Slide background='./images/intro.jpg' centered>
     <Image
-      src='/images/43vp.svg'
+      src='./images/43vp.svg'
       alt='43. výsadkový pluk'
       width={300}
       height={300}

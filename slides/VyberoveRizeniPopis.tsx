@@ -41,14 +41,14 @@ const VyberoveRizeniPopis = () => (
 
         <div className='grid grid-cols-2 gap-5'>
           <Image
-            src='/images/vyberove-rizeni/fyzicke-prezkouseni.jpg'
+            src='./images/vyberove-rizeni/fyzicke-prezkouseni.jpg'
             width={500}
             height={333}
             alt='Fyzické přezkoušení'
             className='rounded-xl drop-shadow-black'
           />
           <Image
-            src='/images/vyberove-rizeni/plavani.jpg'
+            src='./images/vyberove-rizeni/plavani.jpg'
             width={500}
             height={333}
             alt='Plavání'
@@ -85,14 +85,14 @@ const VyberoveRizeniPopis = () => (
 
         <div className='grid grid-cols-2 gap-5'>
           <Image
-            src='/images/vyberove-rizeni/beh-s-kladou.jpg'
+            src='./images/vyberove-rizeni/beh-s-kladou.jpg'
             width={500}
             height={333}
             alt='Běh s kládou'
             className='rounded-xl drop-shadow-black'
           />
           <Image
-            src='/images/vyberove-rizeni/zrychleny-presun.jpg'
+            src='./images/vyberove-rizeni/zrychleny-presun.jpg'
             width={500}
             height={333}
             alt='Zrychlený přesun'
@@ -128,14 +128,14 @@ const VyberoveRizeniPopis = () => (
 
         <div className='grid grid-cols-2 gap-5'>
           <Image
-            src='/images/vyberove-rizeni/pochod.jpg'
+            src='./images/vyberove-rizeni/pochod.jpg'
             width={500}
             height={333}
             alt='35 km pochod se zátěží'
             className='rounded-xl drop-shadow-black'
           />
           <Image
-            src='/images/vyberove-rizeni/nositka.jpg'
+            src='./images/vyberove-rizeni/nositka.jpg'
             width={500}
             height={333}
             alt='Běh s nosítky'

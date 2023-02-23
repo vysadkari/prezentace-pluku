@@ -65,28 +65,28 @@ export async function getStaticProps() {
       title: "Vzdušně-výsadkové operace",
       description:
         "Útok ze zálohy na statický cíl nepřítele s následným stažením do vlastní sestavy.",
-      image: "/images/co-delame/vzdusne-vysadkove-operace.jpg",
+      image: "./images/co-delame/vzdusne-vysadkove-operace.jpg",
     },
     {
       id: "operace-v-tylu-nepritele",
       title: "Operace v týlu nepřítele",
       description:
         "Dlouhodobé operace prováděné výsadkáři v hloubce nepřátelské sestavy proti citlivým cílům.",
-      image: "/images/co-delame/operace-v-tylu-nepritele.jpg",
+      image: "./images/co-delame/operace-v-tylu-nepritele.jpg",
     },
     {
       id: "vyhledej-a-znic",
       title: "Vyhledej a znič",
       description:
         "Operace malých výsadkových jednotek s cílem navázání kontaktu se silami nepřítele s jejich následným zničením.",
-      image: "/images/co-delame/vyhledej-a-znic.jpg",
+      image: "./images/co-delame/vyhledej-a-znic.jpg",
     },
     {
       id: "boj-na-zdrzenou",
       title: "Boj na zdrženou",
       description:
         "Defenzivní činnost, při které výsadkáři prováděním léček a přepadů získávají čas pro hlavní obranné síly.",
-      image: "/images/co-delame/boj-na-zdrzenou.jpg",
+      image: "./images/co-delame/boj-na-zdrzenou.jpg",
     },
 
     {
@@ -94,7 +94,7 @@ export async function getStaticProps() {
       title: "Přepadové operace",
       description:
         "Útok ze zálohy na statický cíl nepřítele s následným stažením do vlastní sestavy.",
-      image: "/images/co-delame/prepadove-operace.jpg",
+      image: "./images/co-delame/prepadove-operace.jpg",
     },
 
     {
@@ -102,14 +102,14 @@ export async function getStaticProps() {
       title: "Léčky",
       description:
         "Překvapivý útok ze zamaskovaných pozic na pohybující se nebo dočasně zastavený cíl nepřítele.",
-      image: "/images/co-delame/lecky.jpg",
+      image: "./images/co-delame/lecky.jpg",
     },
     {
       id: "ovladnuti",
       title: "Ovládnutí",
       description:
         "Překvapivý útok na nepřátelský objekt bez následného stažení s cílem jeho dalšího využití vlastními silami.",
-      image: "/images/co-delame/ovladnuti.jpg",
+      image: "./images/co-delame/ovladnuti.jpg",
     },
 
     {
@@ -117,7 +117,7 @@ export async function getStaticProps() {
       title: "Stabilizační operace",
       description:
         "Využití vojenských schopností v konfliktech nízké intenzity, a to poradenskou nebo protipovstaleckou činností.",
-      image: "/images/co-delame/stabilizacni-operace.jpg",
+      image: "./images/co-delame/stabilizacni-operace.jpg",
     },
 
     {
@@ -125,7 +125,7 @@ export async function getStaticProps() {
       title: "Evakuace nekombatantů",
       description:
         "Evakuaci českých občanů zpět do vlasti, například kvůli vnitřnímu ozbrojenému konfliktu nebo přírodní katastrofě.",
-      image: "/images/co-delame/evakuace-nekombatantu.jpg",
+      image: "./images/co-delame/evakuace-nekombatantu.jpg",
     },
 
     {
@@ -133,7 +133,7 @@ export async function getStaticProps() {
       title: "Záchrana leteckých osádek",
       description:
         "Operace s cílem záchrany sestřelených nebo havarovaných leteckých osádek z týlu nepřítele.",
-      image: "/images/co-delame/zachrana-leteckych-osadek.jpg",
+      image: "./images/co-delame/zachrana-leteckych-osadek.jpg",
     },
   ];
 

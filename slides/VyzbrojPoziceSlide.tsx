@@ -14,7 +14,7 @@ const VyzbrojPoziceSlide = () => (
         <div
           className='relative rounded-xl overflow-hidden drop-shadow-black flex flex-row justify-center h-full bg-cover bg-center'
           style={{
-            backgroundImage: "url('/images/vyzbroj/glock-17.jpg')",
+            backgroundImage: "url('./images/vyzbroj/glock-17.jpg')",
           }}
         >
           <span className='absolute bottom-0 inset-x-0 bg-black/70 backdrop-blur-sm text-white flex flex-row items-center justify-center py-2 font-semibold text-xl'>
@@ -25,7 +25,7 @@ const VyzbrojPoziceSlide = () => (
         <div
           className='relative rounded-xl overflow-hidden drop-shadow-black flex flex-row justify-center h-full bg-cover bg-center'
           style={{
-            backgroundImage: "url('/images/vyzbroj/cz-bren-2.jpg')",
+            backgroundImage: "url('./images/vyzbroj/cz-bren-2.jpg')",
           }}
         >
           <span className='absolute bottom-0 inset-x-0 bg-black/70 backdrop-blur-sm text-white flex flex-row items-center justify-center py-2 font-semibold text-xl'>
@@ -42,7 +42,7 @@ const VyzbrojPoziceSlide = () => (
         <div
           className='relative rounded-xl overflow-hidden drop-shadow-black flex flex-row justify-center h-full bg-cover bg-center'
           style={{
-            backgroundImage: "url('/images/vyzbroj/glock-17.jpg')",
+            backgroundImage: "url('./images/vyzbroj/glock-17.jpg')",
           }}
         >
           <span className='absolute bottom-0 inset-x-0 bg-black/70 backdrop-blur-sm text-white flex flex-row items-center justify-center py-2 font-semibold text-xl'>
@@ -53,7 +53,7 @@ const VyzbrojPoziceSlide = () => (
         <div
           className='relative rounded-xl overflow-hidden drop-shadow-black flex flex-row justify-center h-full bg-cover bg-center'
           style={{
-            backgroundImage: "url('/images/vyzbroj/minimi-mk48.jpg')",
+            backgroundImage: "url('./images/vyzbroj/minimi-mk48.jpg')",
           }}
         >
           <span className='absolute bottom-0 inset-x-0 bg-black/70 backdrop-blur-sm text-white flex flex-row items-center justify-center py-2 font-semibold text-xl'>
@@ -70,7 +70,7 @@ const VyzbrojPoziceSlide = () => (
         <div
           className='relative rounded-xl overflow-hidden drop-shadow-black flex flex-row justify-center h-full bg-cover bg-center'
           style={{
-            backgroundImage: "url('/images/vyzbroj/glock-17.jpg')",
+            backgroundImage: "url('./images/vyzbroj/glock-17.jpg')",
           }}
         >
           <span className='absolute bottom-0 inset-x-0 bg-black/70 backdrop-blur-sm text-white flex flex-row items-center justify-center py-2 font-semibold text-xl'>
@@ -81,7 +81,7 @@ const VyzbrojPoziceSlide = () => (
         <div
           className='relative rounded-xl overflow-hidden drop-shadow-black flex flex-row justify-center h-full bg-cover bg-center'
           style={{
-            backgroundImage: "url('/images/vyzbroj/benelli-m3t.jpg')",
+            backgroundImage: "url('./images/vyzbroj/benelli-m3t.jpg')",
           }}
         >
           <span className='absolute bottom-0 inset-x-0 bg-black/70 backdrop-blur-sm text-white flex flex-row items-center justify-center py-2 font-semibold text-xl'>
