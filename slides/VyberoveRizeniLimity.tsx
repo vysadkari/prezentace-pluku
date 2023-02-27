@@ -115,11 +115,9 @@ const VyberoveRizeniLimity = () => {
 
   return (
     <Slide>
-      <h2 className='text-3xl font-extrabold uppercase text-center bg-gradient-to-r from-black/70 to-primary/70 text-white text-shadow h-[4.5rem] flex flex-row justify-center items-center absolute top-0 inset-x-0'>
-        Výběrové řízení
-      </h2>
+      <Slide.Title>Výběrové řízení</Slide.Title>
 
-      <div className='grid grid-cols-3 gap-10 h-full p-10 pt-28'>
+      <Slide.Content className='grid grid-cols-3 gap-10'>
         <div className='flex flex-col gap-10'>
           <div className='grid grid-cols-2 gap-5'>
             <button
@@ -365,7 +363,7 @@ const VyberoveRizeniLimity = () => {
             </table>
           </div>
         </div>
-      </div>
+      </Slide.Content>
     </Slide>
   );
 };

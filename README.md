@@ -24,11 +24,9 @@ import Slide from "@/components/Slide";
 
 const UkazkovySlide = () => (
   <Slide>
-    <h2 className='text-3xl font-extrabold uppercase text-center bg-gradient-to-r from-black/70 to-primary/70 text-white text-shadow h-[4.5rem] flex flex-row justify-center items-center absolute top-0 inset-x-0'>
-      Ukázkový slide
-    </h2>
+    <Slide.Title>Ukázkový slide</Slide.Title>
 
-    <div className='h-full p-10 pt-28 '>{/* Obsah slidu */}</div>
+    <Slide.Content>{/* Obsah slidu */}</Slide.Content>
   </Slide>
 );
 

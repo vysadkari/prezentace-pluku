@@ -19,10 +19,9 @@ const OrganizacniStruktura = () => {
 
   return (
     <Slide>
-      <h2 className='text-3xl font-extrabold uppercase text-center bg-gradient-to-r from-black/70 to-primary/70 text-white text-shadow h-[4.5rem] flex flex-row justify-center items-center absolute top-0 inset-x-0'>
-        Organizační struktura
-      </h2>
-      <div className='flex flex-col h-full p-10 pt-28 justify-between'>
+      <Slide.Title>Organizační struktura</Slide.Title>
+
+      <Slide.Content className='flex flex-col justify-between'>
         <div className='flex flex-row justify-between'>
           <div ref={plukIcon} className='pr-10'>
             <Image
@@ -218,7 +217,7 @@ const OrganizacniStruktura = () => {
             </span>
           </div>
         </div>
-      </div>
+      </Slide.Content>
 
       <Xarrow
         start={plukIcon}

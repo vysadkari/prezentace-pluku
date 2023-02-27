@@ -6,6 +6,15 @@ interface SlideProps {
   centered?: boolean;
 }
 
+interface TitleProps {
+  children: ReactNode;
+}
+
+interface ContentProps {
+  children: ReactNode;
+  className?: string;
+}
+
 const Slide = ({ children, background, centered }: SlideProps) => {
   return (
     <div
@@ -22,5 +31,18 @@ const Slide = ({ children, background, centered }: SlideProps) => {
     </div>
   );
 };
+
+const Title = ({ children }: TitleProps) => (
+  <h2 className='text-3xl font-extrabold uppercase text-center bg-gradient-to-r from-black/70 to-primary/70 text-white text-shadow h-[4.5rem] flex flex-row justify-center items-center absolute top-0 inset-x-0'>
+    {children}
+  </h2>
+);
+
+const Content = ({ children, className }: ContentProps) => (
+  <div className={`w-full h-full p-10 pt-28 ${className}`}>{children}</div>
+);
+
+Slide.Title = Title;
+Slide.Content = Content;
 
 export default Slide;
