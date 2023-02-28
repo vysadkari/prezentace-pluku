@@ -44,7 +44,7 @@ export default function Home({ slides }: HomeProps) {
         <title>43. výsadkový pluk</title>
         <meta name='description' content='Prezentace 43. výsadkového pluku' />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
-        <link rel='icon' href='/favicon.ico' />
+        <link rel='icon' href='./favicon.ico' />
       </Head>
 
       <Presentation>
