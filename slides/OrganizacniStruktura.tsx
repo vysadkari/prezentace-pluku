@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useRef, useState, useEffect } from "react";
 import Image from "next/image";
 import Xarrow from "react-xarrows";
 
@@ -16,6 +16,12 @@ const OrganizacniStruktura = () => {
   const sbvIcon = useRef(null);
   const svpIcon = useRef(null);
   const zodIcon = useRef(null);
+
+  const [showArrows, setShowArrows] = useState(false);
+
+  useEffect(() => {
+    setShowArrows(true);
+  }, []);
 
   return (
     <Slide>
@@ -219,94 +225,98 @@ const OrganizacniStruktura = () => {
         </div>
       </Slide.Content>
 
-      <Xarrow
-        start={plukIcon}
-        end={stabIcon}
-        dashness
-        startAnchor='right'
-        endAnchor='left'
-        color='#44403c'
-      />
-      <Xarrow
-        start={stabIcon}
-        end={komandaIcon}
-        startAnchor='bottom'
-        endAnchor='top'
-        color='#44403c'
-        curveness={0.5}
-      />
-      <Xarrow
-        start={stabIcon}
-        end={azIcon}
-        startAnchor='bottom'
-        endAnchor='top'
-        color='#44403c'
-        curveness={0.5}
-      />
-      <Xarrow
-        start={stabIcon}
-        end={szIcon}
-        startAnchor='bottom'
-        endAnchor='top'
-        color='#44403c'
-        curveness={0.5}
-      />
-      <Xarrow
-        start={stabIcon}
-        end={sbpIcon}
-        startAnchor='bottom'
-        endAnchor='top'
-        color='#44403c'
-        curveness={0.5}
-      />
-      <Xarrow
-        start={stabIcon}
-        end={szvIcon}
-        startAnchor='bottom'
-        endAnchor='top'
-        color='#44403c'
-        curveness={0.5}
-      />
-      <Xarrow
-        start={stabIcon}
-        end={slzIcon}
-        startAnchor='bottom'
-        endAnchor='top'
-        color='#44403c'
-        curveness={0.5}
-      />
-      <Xarrow
-        start={stabIcon}
-        end={svpIcon}
-        startAnchor='bottom'
-        endAnchor='top'
-        color='#44403c'
-        curveness={0.5}
-      />
-      <Xarrow
-        start={stabIcon}
-        end={sbvIcon}
-        startAnchor='bottom'
-        endAnchor='top'
-        color='#44403c'
-        curveness={0.5}
-      />
-      <Xarrow
-        start={stabIcon}
-        end={svpIcon}
-        startAnchor='bottom'
-        endAnchor='top'
-        color='#44403c'
-        curveness={0.5}
-      />
-      <Xarrow
-        start={stabIcon}
-        end={zodIcon}
-        startAnchor='bottom'
-        endAnchor='top'
-        color='#44403c'
-        curveness={0.5}
-      />
+      {showArrows && (
+        <>
+          <Xarrow
+            start={plukIcon}
+            end={stabIcon}
+            dashness
+            startAnchor='right'
+            endAnchor='left'
+            color='#44403c'
+          />
+          <Xarrow
+            start={stabIcon}
+            end={komandaIcon}
+            startAnchor='bottom'
+            endAnchor='top'
+            color='#44403c'
+            curveness={0.5}
+          />
+          <Xarrow
+            start={stabIcon}
+            end={azIcon}
+            startAnchor='bottom'
+            endAnchor='top'
+            color='#44403c'
+            curveness={0.5}
+          />
+          <Xarrow
+            start={stabIcon}
+            end={szIcon}
+            startAnchor='bottom'
+            endAnchor='top'
+            color='#44403c'
+            curveness={0.5}
+          />
+          <Xarrow
+            start={stabIcon}
+            end={sbpIcon}
+            startAnchor='bottom'
+            endAnchor='top'
+            color='#44403c'
+            curveness={0.5}
+          />
+          <Xarrow
+            start={stabIcon}
+            end={szvIcon}
+            startAnchor='bottom'
+            endAnchor='top'
+            color='#44403c'
+            curveness={0.5}
+          />
+          <Xarrow
+            start={stabIcon}
+            end={slzIcon}
+            startAnchor='bottom'
+            endAnchor='top'
+            color='#44403c'
+            curveness={0.5}
+          />
+          <Xarrow
+            start={stabIcon}
+            end={svpIcon}
+            startAnchor='bottom'
+            endAnchor='top'
+            color='#44403c'
+            curveness={0.5}
+          />
+          <Xarrow
+            start={stabIcon}
+            end={sbvIcon}
+            startAnchor='bottom'
+            endAnchor='top'
+            color='#44403c'
+            curveness={0.5}
+          />
+          <Xarrow
+            start={stabIcon}
+            end={svpIcon}
+            startAnchor='bottom'
+            endAnchor='top'
+            color='#44403c'
+            curveness={0.5}
+          />
+          <Xarrow
+            start={stabIcon}
+            end={zodIcon}
+            startAnchor='bottom'
+            endAnchor='top'
+            color='#44403c'
+            curveness={0.5}
+          />
+        </>
+      )}
     </Slide>
   );
 };
