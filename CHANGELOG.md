@@ -1,5 +1,15 @@
 # Changelog
 
+## **[1.1]** - 1. 3. 2023
+
+### Added
+
+- Slide "Přestup z jiného útvaru"
+
+### Removed
+
+- Horizontální scrollbar
+
 ## **[1.0]** - 27. 2. 2023
 
 ### Added

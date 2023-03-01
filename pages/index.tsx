@@ -6,7 +6,8 @@ import VyzbrojTezkeZbrane from "@/slides/VyzbrojTezkeZbrane";
 import OrganizacniStruktura from "@/slides/OrganizacniStruktura";
 import VyberoveRizeniPopis from "@/slides/VyberoveRizeniPopis";
 import VyberoveRizeniLimity from "@/slides/VyberoveRizeniLimity";
-import DotazySlide from "@/slides/Dotazy";
+import Prestup from "@/slides/Prestup";
+import Dotazy from "@/slides/Dotazy";
 import Head from "next/head";
 
 type Task = {
@@ -34,7 +35,8 @@ const slideComponents: { [index: string]: any } = {
   OrganizacniStruktura,
   VyberoveRizeniPopis,
   VyberoveRizeniLimity,
-  DotazySlide,
+  Prestup,
+  Dotazy,
 };
 
 export default function Home({ slides }: HomeProps) {
@@ -170,8 +172,12 @@ export async function getStaticProps() {
       component: "VyberoveRizeniLimity",
     },
     {
+      id: "Prestup",
+      component: "Prestup",
+    },
+    {
       id: "dotazy",
-      component: "DotazySlide",
+      component: "Dotazy",
     },
   ];
 
